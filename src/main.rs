@@ -1,3 +1,5 @@
+#![feature(core_float_math)]
+
 use core::f64;
 
 fn main() {
