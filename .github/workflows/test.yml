@@ -17,11 +17,11 @@ jobs:
         include:
           - toolchain: nightly
             os: ubuntu-24.04
-          - toolchain: 1.87.0-nightly
+          - toolchain: nightly-2024-01-01
             os: ubuntu-24.04
           - toolchain: stable
             os: ubuntu-24.04
-          - toolchain: 1.87.0-stable
+          - toolchain: stable-2024-01-01
             os: ubuntu-24.04
     runs-on: ${{ matrix.os }}
     steps:
